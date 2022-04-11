@@ -1,0 +1,18 @@
+<section class="section is-medium">
+    <div class="anchor" id="board"></div>
+    <div>
+        <h1 class="text-3xl text-center text-darkBlue ">
+            Board of Directors
+        </h1>
+    </div>
+    <div>
+        {% for director in site.directors %}
+            <div>
+                <div>
+                    <h3> {{director.name}} </h3>
+                    <h5> {{director.title}} </h5>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

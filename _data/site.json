@@ -1,0 +1,35 @@
+{
+    "title": "Begin Again Ministries",
+    "url": "https://example.com/",
+    "language": "en-US",
+    "description": "A simple blog with awesome content",
+    "directors": [
+        {
+            "title": "Chairman",
+            "name": "Edina McGinnis"
+        },
+        {
+            "title": "Vice Chairman",
+            "name": "Virgil McGinnis"
+        },
+        {
+            "title": "Secretary",
+            "name": "Jo Collins"
+        },
+        {
+            "title": "Treasurer",
+            "name": "Christina Bravata"
+        },
+        {
+            "title": "Lead Pastor Church on the Hill",
+            "name": "Beau Norman"
+        },
+        {
+            "title": "Licensed Psychologist State of Missouri",
+            "name": "Dr. Cheryl Thornton"
+        },
+        {
+            "title": "Licensed Practical Nurse, CMH Healthcare",
+            "name": "Kristina Hay"
+        }]
+  }
