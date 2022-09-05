@@ -1,0 +1,24 @@
+<section class="section is-medium anchor" id="megansPlace">
+    <div class="container">
+        <div class="content is-center">
+            <h1 class="title is-1 mb-6" id="get-involved">Contact</h1>
+            <p class="subtitle mb-3">
+                Megan's Place is the name of our residential facility. A safe place for spiritual, emotional, mental, and physical healing from substance abuse and its related issues.
+                Day to day living necessities are provided. Access to substance use medical care, counseling, educational and evaluative information is available. 
+            </p>
+            <p class="subtitle mb-3">
+                Our directors have personal experiance with substance use, counseling and domestic violence. We provide nonjudgemental support and encouragement to achive your goals. 
+            </p>
+            <div>
+                <p class="subtitle is-4 mb-3">
+                Visit our pre owned Furniture Store! Where every purchase helps fund Megan's Place. 
+                </p>
+                <ul>
+                    {% for item in info %}
+                        <li> {{ item.description }} </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,5 +1,14 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
 
+
+// NAV
+
+.navLink {
+    background-color: #000000 !important;
+}
+
+// FOOTER
+
 .footer {
     padding: 3rem 1.5rem 3rem;
 }
