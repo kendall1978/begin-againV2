@@ -1,0 +1,35 @@
+{% set info = [
+    {
+        description: '90 DAY NON-MEDICAL DRUG REHAB RESIDENTIAL STAY'
+    },
+    {
+        description: 'NONJUDGEMENT, TRAUMA INFORMED, STRENTH FOCUSED'
+    },
+    {
+        description: 'AN ATMOSPHERE FOR SPIRITUAL, EMOTIONAL AND PHYSICAL HEALING'
+    },
+    {
+        description: 'COUNSELING, LIFE, & COPING SKILLS, PARENTING CLASSES, MEDICAL ACCESS'
+    },
+    {
+        description: 'SLIDING SCALE FOR PAYMENT'
+    }
+]%}
+
+<section class="section" id="furniture">
+    <div class="container is-flex is-justify-content-center">
+        <div class="content is-center">
+            <div class="is-flex is-justify-content-center p-5">
+                <img class="furnitureImg" src="/_assets/web-pics/BAM-pre-owned-furniture.png">
+            </div>
+            <p class="subtitle is-4 mb-3">
+                Visit our pre owned Furniture Store! Where every purchase helps fund Megan's Place. 
+            </p>
+            <ul>
+                {% for item in info %}
+                    <li> {{ item.description }} </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>

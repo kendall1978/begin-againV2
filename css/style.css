@@ -2,9 +2,65 @@
 
 
 // NAV
+  
+  .card-content {
+    background-color: #FBFBFB !important;
+  }
 
-.navLink {
-    background-color: #000000 !important;
+  /* Centered Menu */
+  .navbar.has-centered-menu {
+    .navbar-start {
+      flex-grow: 1;
+      justify-content: center;
+    }
+  }
+
+  a.navbar-item {
+    padding: 5px 20px;
+  }
+
+  a.navbar-item:hover {
+    color: #9c9c9c !important;
+  }
+
+  .card-content {
+    padding: 0;
+  }
+  /* Centered Logo Above */
+  .navbar.has-logo-above {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .navLogo {
+    min-width: 125px;
+    min-height: 125px;
+    padding: 0;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .navLogo {
+      min-width: 100px;
+      min-height: 100px;
+      padding: 0;
+    }
+
+    .navbar-menu {
+      display: flex;
+      background-color: #FBFBFB !important;
+    }
+
+    .card-content {
+      background-color: #FBFBFB !important;
+    }
+  }
+
+// Preowned Furntiture
+
+.furnitureImg {
+  
 }
 
 // FOOTER
@@ -16,3 +72,7 @@
 ul.footerList {
     list-style-type: none;
 }
+
+body {
+    padding-top: 0px;
+  }

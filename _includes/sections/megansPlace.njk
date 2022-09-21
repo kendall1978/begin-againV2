@@ -1,21 +1,3 @@
-{% set info = [
-    {
-        description: '90 DAY NON-MEDICAL DRUG REHAB RESIDENTIAL STAY'
-    },
-    {
-        description: 'NONJUDGEMENT, TRAUMA INFORMED, STRENTH FOCUSED'
-    },
-    {
-        description: 'AN ATMOSPHERE FOR SPIRITUAL, EMOTIONAL AND PHYSICAL HEALING'
-    },
-    {
-        description: 'COUNSELING, LIFE, & COPING SKILLS, PARENTING CLASSES, MEDICAL ACCESS'
-    },
-    {
-        description: 'SLIDING SCALE FOR PAYMENT'
-    }
-]%}
-
 <section class="section is-medium anchor" id="megansPlace">
     <div class="container">
         <div class="content is-center">
@@ -27,16 +9,6 @@
             <p class="subtitle mb-3">
                 Our directors have personal experiance with substance use, counseling and domestic violence. We provide nonjudgemental support and encouragement to achive your goals. 
             </p>
-            <div>
-                <p class="subtitle is-4 mb-3">
-                Visit our pre owned Furniture Store! Where every purchase helps fund Megan's Place. 
-                </p>
-                <ul>
-                    {% for item in info %}
-                        <li> {{ item.description }} </li>
-                    {% endfor %}
-                </ul>
-            </div>
         </div>
     </div>
 </section>

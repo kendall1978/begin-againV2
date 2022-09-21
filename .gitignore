@@ -1,3 +1,7 @@
 /debug.log
-/_site
+/_site/_assets/index.js
+/_site/css
+/_site/js
+/_site/README
+/index.html
 /node_modules
