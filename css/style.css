@@ -48,7 +48,7 @@
     }
 
     .navbar-menu {
-      display: flex;
+      display: none;
       background-color: #FBFBFB !important;
     }
 

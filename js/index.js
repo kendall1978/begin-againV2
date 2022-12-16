@@ -1,8 +1,11 @@
 // Mobile Menu
 
-const burgerIcon = document.querySelector('#burger');
-const navbarMenu = document.querySelector('#nav-menu');
+const myNav = document.querySelector("#my-nav")
+const burger = document.querySelector("#burger")
+const navMenu = document.querySelector("#navMenu")
 
-burgerIcon.addEventListener('click', () => {
-    navbarMenu.classList.toggle('is-active')
+burger.addEventListener('click', ()=> {
+    navMenu.classList.toggle("is-active")
+    myNav.classList.toggle("is-active")
+    burger.classList.toggle("is-active")
 })

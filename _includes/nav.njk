@@ -3,8 +3,40 @@
     '#board': 'Board of Directors'
  }
  %}
+
+ <nav class="navbar" id="my-nav" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+
+    <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div class="navbar-menu" id="navMenu">
+    <div class="navbar-start">
+        {% for link, title in links %}
+            <a class="navbar-item" href="{{ link }}">{{ title }}</a>
+        {% endfor %}
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-info" href="https://www.facebook.com/Begin-Again-Ministries-108864408483113">
+            facebook
+          </a>
+          <a class="button is-dark" href="https://www.paypal.com/US/fundraiser/charity/4542822">
+            DONATE
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
  
-    <div class="columns">
+    {# <div class="columns">
         <div class="column is-12">
             <div class="card">
                 <div class="card-content">
@@ -17,10 +49,10 @@
                         <div class="navbar-menu">
                             {% for link, title in links %}
                                 <a class="navbar-item" href="{{ link }}">{{ title }}</a>
-                            {% endfor %}
+                            
                         </div>
                     </nav>
                 </div>
             </div>
         </div>
-    </div>
+    </div> #}
