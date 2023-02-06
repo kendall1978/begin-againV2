@@ -4,9 +4,8 @@
  }
  %}
 
- <nav class="navbar" id="my-nav" role="navigation" aria-label="main navigation">
+ <nav class="navbar is-fixed-top has-shadow" style="background: #fff;" id="my-nav" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-
     <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -14,7 +13,7 @@
     </a>
   </div>
 
-  <div class="navbar-menu" id="navMenu">
+  <div class="navbar-menu" id="nav-links">
     <div class="navbar-start">
         {% for link, title in links %}
             <a class="navbar-item" href="{{ link }}">{{ title }}</a>
@@ -24,8 +23,11 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-info" href="https://www.facebook.com/Begin-Again-Ministries-108864408483113">
-            facebook
+          <a class="button is-facebook" href="https://www.facebook.com/Begin-Again-Ministries-108864408483113">
+            <span class="icon">
+              <i class="fab fa-facebook"></i>
+            </span>
+            <span>Facebook</span>
           </a>
           <a class="button is-dark" href="https://www.paypal.com/US/fundraiser/charity/4542822">
             DONATE
@@ -36,23 +38,3 @@
   </div>
 </nav>
  
-    {# <div class="columns">
-        <div class="column is-12">
-            <div class="card">
-                <div class="card-content">
-                    <nav class="navbar is-light is-transparent has-logo-above" role="navigation" aria-label="main navigation">
-                        <div class="navbar-brand">
-                            <a class="navbar-item" href="/">
-                                <img class="navLogo" src="_assets/web-pics/BAM-logo.svg">
-                            </a>
-                        </div>
-                        <div class="navbar-menu">
-                            {% for link, title in links %}
-                                <a class="navbar-item" href="{{ link }}">{{ title }}</a>
-                            
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div> #}

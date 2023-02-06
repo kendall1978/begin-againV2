@@ -2,7 +2,7 @@
 
 const myNav = document.querySelector("#my-nav")
 const burger = document.querySelector("#burger")
-const navMenu = document.querySelector("#navMenu")
+const navMenu = document.querySelector("#nav-links")
 
 burger.addEventListener('click', ()=> {
     navMenu.classList.toggle("is-active")
