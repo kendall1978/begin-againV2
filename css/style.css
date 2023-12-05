@@ -1,7 +1,7 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
 
 
-// NAV
+/* // NAV */
   
   .card-content {
     background-color: #FBFBFB !important;
@@ -53,17 +53,34 @@
     }
 
     .card-content {
-      background-color: #FBFBFB !important;
+      background-color: transparent !important;
     }
   }
 
-// Preowned Furntiture
+/* Megans Place */
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+
+/* // Preowned Furntiture */
 
 .furnitureImg {
   
 }
 
-// FOOTER
+/* // FOOTER */
 
 .footer {
     padding: 3rem 1.5rem 3rem;
